@@ -7,7 +7,7 @@
     "default_title": "Click to view a popup",
     "default_popup": "popup.html"
   },
-  "permissions": ["alarms", "activeTab", "scripting"],
+  "permissions": ["alarms", "activeTab", "scripting", "notifications"],
   "background": {
     "service_worker": "background.js"
   }
