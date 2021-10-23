@@ -1,9 +1,14 @@
 {
-  "name": "Getting Started Example",
-  "description": "Build an Extension!",
+  "name": "Focus",
+  "description": "Pomodoro Alarms",
   "version": "1.0",
   "manifest_version": 3,
   "action": {
+    "default_title": "Click to view a popup",
     "default_popup": "popup.html"
+  },
+  "permissions": ["alarms", "activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
   }
 }
