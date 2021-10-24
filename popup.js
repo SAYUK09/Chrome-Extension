@@ -20,8 +20,7 @@ function clearAlarm() {
 
   chrome.notifications.create("AlarmCleared", {
     type: "basic",
-    iconUrl:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR1LorHZXyOs79cdoY2Hj5WCcUC4eCRlzQzg&usqp=CAU",
+    iconUrl: "./assets/snooze.png",
     title: "Pomodoro Alarmed Snoozed",
     message: "Come Back Soon!",
     priority: 1,
